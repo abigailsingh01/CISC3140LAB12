@@ -1,0 +1,38 @@
+
+  "name": "backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "movie search",
+  "scripts": {
+    "develop": "abi",
+    "start": "abi start",
+    "build": "abi build",
+    "movie search": "movie search"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "moviesearch": "3.0.0-beta.20.3",
+    "moviesearch-admin": "3.0.0-beta.20.3",
+    "moviesearch-connector-mongoose": "3.0.0-beta.20.3",
+    "moviesearch-plugin-content-manager": "3.0.0-beta.20.3",
+    "moviesearch-plugin-content-type-builder": "3.0.0-beta.20.3",
+    "moviesearch-plugin-email": "3.0.0-beta.20.3",
+    "moviesearch-plugin-graphql": "3.0.0-beta.20.3",
+    "moviesearch-plugin-upload": "3.0.0-beta.20.3",
+    "moviesearch-plugin-users-permissions": "3.0.0-beta.20.3",
+    "moviesearch-provider-upload-aws-s3": "3.0.0-beta.20.3",
+    "moviesearch-utils": "3.0.0-beta.20.3",
+    "stripe": "^8.52.0"
+  },
+  "author": {
+    "name": "Abi"
+  },
+  "abigail": {
+    "uuid": "468d1ef0-069f-4db0-bec5-e3a499128adc"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
